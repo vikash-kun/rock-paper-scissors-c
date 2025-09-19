@@ -17,7 +17,7 @@ scanf("%d", &player);
 if (player < 1 || player > 3) {
     printf("invalid choice! choose between 1 and 3. \n");
     return 0;
-
+}
     // computer random choice (1-3)
     computer = (rand() % 3) + 1;
 
