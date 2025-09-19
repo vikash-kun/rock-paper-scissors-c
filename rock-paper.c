@@ -6,7 +6,7 @@ int main () {
     int player, computer;
     char *choices[] = {"Rock", "Paper", "Scissors"};
 // seed random number generatoor
-srand(time(0));
+srand(time(NULL));
 
 printf("===Rock, Paper, scissors ===\n");
 printf("enter your choice : \n");
